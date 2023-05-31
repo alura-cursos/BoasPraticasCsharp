@@ -1,12 +1,12 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Alura.Adopet.API.Dominio.Entity
+namespace Alura.Adopet.API.Dominio
 {
-    internal class Cliente
+    public class Cliente
     {
         public Cliente()
         {
-           this.Id = Guid.NewGuid();
+            Id = Guid.NewGuid();
         }
 
         [Key]
