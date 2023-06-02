@@ -4,8 +4,7 @@ using Microsoft.EntityFrameworkCore;
 namespace Alura.Adopet.API.Dados.Context
 {
     public class DataBaseContext: DbContext
-    {      
-
+    {     
         public DataBaseContext(DbContextOptions<DataBaseContext> options):base(options) {
             
         }
